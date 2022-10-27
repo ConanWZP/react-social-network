@@ -1,0 +1,68 @@
+.nav {
+	grid-area: n;
+	background-color: #559aad;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+.item a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition: all 0.5s ease 0s;
+}
+
+.item {
+	margin-bottom: 8px;
+}
+
+
+.item a.activeLink {
+	color: rgb(203, 18, 194);
+}
+
+.item a:hover {
+	border-bottom: 4px solid black;
+}
+
+/*
+.item.activKa{
+	color: red;
+}*/
+
+/*.activKa {
+	color: red;
+}*/
+
+
+.last {
+	margin-top: 50px;
+
+}
+
+
+
+.friends {
+	margin-top: 25px;
+	display: grid;
+	grid-template: repeat(2,35px) / repeat(3,1fr);
+	justify-items: center;
+
+
+}
+
+
+
+.avatar {
+	background-color: black;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.name a {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}

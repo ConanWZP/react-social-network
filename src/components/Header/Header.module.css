@@ -1,0 +1,40 @@
+.header {
+	grid-area: h;
+	background-color: #008cba;
+	display: flex;
+	align-items: center;
+	border-bottom: 3px solid black;
+	position: relative;
+}
+
+.header img {
+	padding: 5px;
+	width: 40px;
+	height: 40px
+}
+
+svg {
+	padding: 15px;
+	width: 55px;
+	height: 55px
+}
+
+.icon {
+	margin: 0 20px 0 0;
+}
+
+.article {
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loginBlock {
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.loginBlock a {
+	color: white;
+}

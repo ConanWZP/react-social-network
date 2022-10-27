@@ -1,0 +1,95 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+
+}
+
+
+
+.dialogItems {
+    padding: 10px;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.dialog.active {
+    color: blue;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.dialog.active a {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.dialog.active a:hover {
+    color: #3eaac5;
+}
+
+.dialog.active a.activeLink {
+    color: rgb(203, 18, 194);
+}
+
+
+
+.dialog {
+
+}
+
+.messages {
+    padding: 10px;
+    position: relative;
+
+}
+
+
+.message {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.messageTaken {
+    margin-bottom: 5px;
+}
+
+.messageSended {
+    margin-bottom: 5px;
+    text-align: end;
+}
+
+.sendingMessage {
+
+    padding: 200px 20px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.sendingMessage textarea {
+    width: 940px;
+}
+
